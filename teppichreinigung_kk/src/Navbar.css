@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    width: 100%;
+    
+}
+
+.navbar_logo {
+    height: 50px;
+    object-fit: contain;
+    margin-left: 50px;
+}
+
+.navbar {
+    margin-right: 5px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+ }
